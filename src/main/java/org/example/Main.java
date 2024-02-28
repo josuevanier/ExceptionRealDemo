@@ -21,4 +21,10 @@ public class Main {
             System.out.println(e);
         }
     }
+    static void validate(int age) {
+        if (age < 0 || age > 200) {
+            throw new IllegalArgumentException("Not real age");
+        }
+        System.out.println(age);
+    }
 }
