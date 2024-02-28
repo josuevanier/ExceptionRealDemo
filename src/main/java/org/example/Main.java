@@ -25,6 +25,6 @@ public class Main {
         if (age < 0 || age > 200) {
             throw new IllegalArgumentException("Not real age");
         }
-        System.out.println(age);
+        System.out.println(age); // no need to catch
     }
 }
